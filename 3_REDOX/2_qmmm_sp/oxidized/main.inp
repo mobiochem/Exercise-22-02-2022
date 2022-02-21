@@ -1,0 +1,7 @@
+&main
+tpl    = orca
+top    = MD-ox.prmtop
+traj   = ox-im.mdcrd
+qmmask = :1
+geoms  = 0 99 
+&end

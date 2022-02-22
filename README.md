@@ -1,7 +1,11 @@
 # Exercise-22-02-2022
 Exercise 3 on the course of Simulation of Biological Systems
 
-Please either git clone this repository before starting the exercise, or copy the 3_REDOX folder with all of its contents on your working dierctory.
+Please either git clone this repository before starting the exercise, or copy the 3_REDOX folder with all of its contents on your working dierctory:
+
+```
+tar -xf xtb-6.4.1-linux-x86_64.tar.xz
+```
 
 # XTB Installation
 Apart from the orca software, we will also use xtb. Therefore, please:

@@ -23,7 +23,7 @@ export PATH=$XTBPATH:$PATH
 where /path/to/xtb is the location where you unzipped xtb. For example, if you downloaded the version 6.4.1 and you put it on your home, it should be:
 
 ```
-/home/pepito/xtb-6.4.0/bin
+/home/pepito/xtb-6.4.1/bin
 ```
 
 if your username is pepito.

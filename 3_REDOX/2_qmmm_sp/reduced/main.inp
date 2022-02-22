@@ -1,6 +1,6 @@
 &main
 tpl    = orca
-top    = MD-red.prmtop
+top    = MOL-red.prmtop
 traj   = red-im.mdcrd
 qmmask = :1
 geoms  = 0 99 

@@ -12,26 +12,26 @@ depending on you operative system. It comes precompiled so you really just need 
 
 2) Add these variables to your .bashrc file (or alternatively, paste the following on your terminal):
 
-'''
+```
 export XTBHOME=/path/to/xtb/bin
 export XTBPATH=/path/to/xtb/bin
 export PATH=$XTBHOME:$PATH
 export PATH=$XTBPATH:$PATH
-'''
+```
 
 where /path/to/xtb is the location where you unzipped xtb. For example, if you downloaded the version 6.4.1 and you put it on your home, it should be:
 
-'''
+```
 /home/pepito/xtb-6.4.0/bin
-'''
+```
 
 if your username is pepito.
 
 3) Very Important: we need to put the xtb executable on the ORCA installation folder with the name **otool_xtb**. We can create a link on that folder as follows:
 
-'''
+```
 ln -sf /path/to/xtb/bin/xtb /path/to/orca/otool_xtb
-'''
+```
 
 where /path/to/xtb/bin is the same as before (notice the "second" xtb at the end: that is the actual xtb executable, which you are linking to on the orca folder).
 

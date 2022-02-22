@@ -3,6 +3,7 @@ Exercise 3 on the course of Simulation of Biological Systems
 
 Please either git clone this repository before starting the exercise, or copy the 3_REDOX folder with all of its contents on your working dierctory.
 
+# XTB Installation
 Apart from the orca software, we will also use xtb. Therefore, please:
 1) Download xtb from
 
@@ -36,5 +37,5 @@ ln -sf /path/to/xtb/bin/xtb /path/to/orca/otool_xtb
 where /path/to/xtb/bin is the same as before (notice the "second" xtb at the end: that is the actual xtb executable, which you are linking to on the orca folder).
 
 
-
+# Regarding the Second Part of the Exercise
 For the second part (2_qmmm_sp) we will use trajectories having 10 snapshots (instead of 100), so please consider that the range is 10 in that part of the exercise.

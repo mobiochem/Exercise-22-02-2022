@@ -1,11 +1,7 @@
 # Exercise-22-02-2022
 Exercise 3 on the course of Simulation of Biological Systems
 
-Please either git clone this repository before starting the exercise, or copy the 3_REDOX folder with all of its contents on your working dierctory:
-
-```
-tar -xf xtb-6.4.1-linux-x86_64.tar.xz
-```
+Please either git clone this repository before starting the exercise, or copy the 3_REDOX folder with all of its contents on your working dierctory.
 
 # XTB Installation
 Apart from the orca software, we will also use xtb. Therefore, please:
@@ -13,7 +9,11 @@ Apart from the orca software, we will also use xtb. Therefore, please:
 
 https://github.com/grimme-lab/xtb/releases/tag/v6.4.1
 
-depending on you operative system. It comes precompiled so you really just need to unzip the corresponding folder.
+depending on you operative system. It comes precompiled so you really just need to unzip the corresponding folder. Then unzip it:
+
+```
+tar -xf xtb-6.4.1-linux-x86_64.tar.xz
+```
 
 2) Add these variables to your .bashrc file (or alternatively, paste the following on your terminal):
 
